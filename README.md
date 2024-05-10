@@ -1,6 +1,6 @@
 # Challenge-XII
 
-⚠️O frontEnd e o backEnd estão nesse repositório.⚠️  
+⚠️O frontEnd esta nesse repositório.⚠️  
 
 ### FrontEnd
 * Baixar bibliotecas

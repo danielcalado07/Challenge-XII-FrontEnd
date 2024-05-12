@@ -69,7 +69,7 @@ function Home() {
       </header>
       <div className="caixaMae">
         <div className="caixaUm">
-          <img className="img_dashBoard" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+          <img className="img_dashBoard" src="papelDeParede.png" alt="imagem" />
         </div>
         <div className="caixaDois">
           <div className="form">

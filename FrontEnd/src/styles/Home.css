@@ -1,0 +1,288 @@
+/* ====== CSS DA NAVBAR ====== */
+.navBar {
+  background-color: #242424;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.divLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divUsuario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  margin: 0 15px;
+}
+
+.pLink {
+  margin: 0 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.pLink2 {
+  margin: 0 15px;
+  color: #FBA403;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.divSeparador {
+  width: 1px;
+  height: 30px;
+  background-color: #333333;
+  margin: 0 10px;
+}
+/* ==================================== */
+
+.caixaMae {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 414px) {
+  .caixaMae {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+}
+
+.caixaUm {
+  width: 43%;
+  height: 40%;
+  background-color: #242424;
+}
+
+.caixaDois {
+  width: 45%;
+  height: 40%;
+  background-color: #242424;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.divInput {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #2C2C2C;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.caixaBotao{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.input{
+  width: 100%;
+  height: 60px;
+  background-color: #2C2C2C;
+  border: 0.1px solid #FFFFFFB2;
+  border-radius: 5px;
+  font-size: 20px;
+  text-indent: 10px;
+  margin:0;
+}
+
+input:focus{
+  border: 1px solid #FBA403;
+  outline: none;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.img_dashBoard {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.form {
+  width: 95%;
+  height: 70%;
+}
+
+.pTitulo {
+  font-size: 23px;
+}
+
+.pSubTitulo {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.RIDE {
+  color: #FBA403;
+}
+
+.my {
+  color: #FBA403;
+  font-style: italic;
+}
+
+.pInput{
+  width: 100%;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.divLabel{
+  width: 100%;
+  text-align: center;
+}
+
+.label{
+  font-size: 12px;
+  width: 72px;
+  padding: 4px;
+  display: flex;
+  position: relative;
+  top: 12px;
+  margin-left: 15px;
+  background-color: #2C2C2C;
+  color: #FFFFFFB2;
+}
+
+.label2{
+  font-size: 12px;
+  width: 98px;
+  padding: 4px;
+  display: flex;
+  position: relative;
+  top: 12px;
+  margin-left: 15px;
+  background-color: #2C2C2C;
+  color: #FFFFFFB2;
+}
+
+.divpErro{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.pErro{
+  color: #fb0303;
+  font-size: 12px;
+  top: -10px;
+  position: relative;
+}
+.imgButton2{
+  position: relative;
+  top: -10px;
+  margin-right: 10px;
+}
+
+.label.focused {
+  color: #FBA403;
+}
+
+.label2.focused {
+  color: #FBA403;
+}
+
+.button{
+  width: 40%;
+  height: 54px;
+  background-color: #FBA403;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imgButton{
+  margin-right: 10px;
+}
+
+.h2{
+  color: #FBA403;
+  font-size: 14px;
+}
+
+.clear-input {
+  position: absolute;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 35%;
+  font-family: "Noto Serif Khitan Small Script", serif;
+  font-style: normal;
+
+}
+
+.clear-input.focused {
+  color: #FBA403; 
+}
+.contInput{
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsividade */
+@media screen and (max-width: 710px) {
+  .pLink {
+    font-size: 10px;
+    margin: 0 7px;
+  }
+
+  .pLink2 {
+    font-size: 10px;
+    margin: 0 7px;
+  }
+
+  .imagemLogo{
+    width: 10%;
+    margin: 0;
+  }
+
+  .img{
+    width: 30%;
+    margin: 0;
+  }
+
+  .divSeparador {
+    width: 1px;
+    height: 20px;
+    background-color: #333333;
+    margin: 0;
+  }
+
+}
+

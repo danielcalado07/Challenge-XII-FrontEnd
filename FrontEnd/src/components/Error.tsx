@@ -6,7 +6,7 @@ function Error() {
     }
     return (
         <div className="erro">
-            <img className="imgError" src="alerta.svg" alt="404" />
+            <img className="imgError" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/alerta.svg" alt="404" />
             <h1>404</h1>
             <h2>Oops! Looks like you're lost.</h2>
             <button className="buttonError" onClick={voltarHome}>Go back home</button>

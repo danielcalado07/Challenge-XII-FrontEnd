@@ -69,7 +69,7 @@ function Home() {
       </header>
       <div className="caixaMae">
         <div className="caixaUm">
-          <img className="img_dashBoard" src="papelDeParede.png" alt="imagem" />
+          <img className="img_dashBoard" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
         </div>
         <div className="caixaDois">
           <div className="form">
@@ -91,7 +91,7 @@ function Home() {
               <div className="divpErro">
                 {status1 === "false" && (
                   <>
-                    <img className="imgButton2" src="erro.svg" /><p className="pErro">{errorPickp}</p>
+                    <img className="imgButton2" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/erro1.svg" /><p className="pErro">{errorPickp}</p>
                   </>
                 )}
               </div>
@@ -106,12 +106,12 @@ function Home() {
               <div className="divpErro">
                 {status2 === "false" && (
                   <>
-                    <img className="imgButton2" src="erro.svg" /><p className="pErro">{errorDest}</p>
+                    <img className="imgButton2" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/erro1.svg" /><p className="pErro">{errorDest}</p>
                   </>
                 )}
               </div>
               <div className="caixaBotao">
-                <button className="button" onClick={irParaError}><img className="imgButton" src="icon.svg" />FIND A DRIVER</button>
+                <button className="button" onClick={irParaError}><img className="imgButton" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/icon.svg" />FIND A DRIVER</button>
                 <h2 className="h2">MORE OPTIONS</h2>
               </div>
             </div>

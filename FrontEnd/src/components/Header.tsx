@@ -1,7 +1,7 @@
 import React from 'react';
-function NavBar() {
+function Header() {
   return (
-      <div className="navBar">
+      <header className="header">
         <img className='imagemLogo' src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/logo.svg" alt="logo" />
         <div className='divLink'>
           <p className='pLink2'>Home</p>
@@ -14,8 +14,8 @@ function NavBar() {
           <div className='divSeparador'></div>
           <img className='img' src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/icon_user.svg" alt="user" />
         </div>
-      </div>
+      </header>
   );
 }
 
-export default NavBar;
+export default Header;

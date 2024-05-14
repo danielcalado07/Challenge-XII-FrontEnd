@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Home.css";
-import NavBar from "./navBar";
+import Header from "./Header";
 
 function Home() {
   const [focusedInput, setFocusedInput] = useState("")
@@ -64,9 +64,7 @@ function Home() {
 
   return (
     <div className="Home">
-      <header className="App-header">
-        <NavBar />
-      </header>
+        <Header />
       <div className="caixaMae">
         <div className="caixaUm">
           <img className="img_dashBoard" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />

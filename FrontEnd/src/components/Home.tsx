@@ -118,6 +118,44 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="titulosSessao2">
+        <p className="pTituloSessao2">WHY SHOULD YOU RIDE WITH US?</p>
+        <p className="pSubTituloSessao2">Best in class rides</p>
+      </div>
+      <div className="painelDeCarros">
+        <div className="carro">
+        <div className="conteudo">
+          <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+          <p className="pCarro">Basic</p>
+          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+          <p className="pLearnMore">LEARN MORE</p>
+        </div>
+        </div>
+        <div className="carro">
+        <div className="conteudo">
+        <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+        <p className="pCarro">Basic</p>
+          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+          <p className="pLearnMore">LEARN MORE</p>
+        </div>
+        </div>
+        <div className="carro">
+        <div className="conteudo">
+        <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+        <p className="pCarro">Basic</p>
+          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+          <p className="pLearnMore">LEARN MORE</p>
+        </div>
+        </div>
+        <div className="carro">
+          <div className="conteudo">
+          <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+          <p className="pCarro">Basic</p>
+          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+          <p className="pLearnMore">LEARN MORE</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 

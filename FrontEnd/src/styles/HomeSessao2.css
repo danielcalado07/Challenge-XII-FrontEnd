@@ -1,0 +1,139 @@
+
+.titulosSessao2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  .pTituloSessao2{
+    margin-top: 110px;
+    font-size: 26px;
+    color: #FBA403;
+  }
+  
+  .pSubTituloSessao2{
+    font-size: 45px;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  
+  .content{
+    width: 100%;
+  }
+  .painelDeCarros{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    width: 94%;
+    height: 418px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .carro{
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background-color: #242424;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  }
+  
+  .conteudo{
+    width: 100%;
+    height: 100%;
+    background-color: #383838;
+  }
+  
+  .imgCarro{
+    width: 100%;
+    height: 214px;
+  }
+  
+  .pCarro{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    line-height: 24px;
+  }
+  
+  .p2Carro{
+    font-size: 16px;
+    line-height: 25px;
+    color: #B3B3B3;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .pLearnMore{
+    font-size: 14px;
+    color: #FBA403;
+    margin-left: 15px;
+    text-align: end;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 15PX;
+  }
+
+  @media screen and (max-width: 430px){
+    .titulosSessao2{
+      margin-top: 20px;
+    }
+    .pTituloSessao2{
+      margin-top: 10%;
+      font-size: 15px;
+    }
+    .pSubTituloSessao2{
+      font-size: 25px;
+    }
+    .painelDeCarros{
+      height: auto;
+      width: 100%;
+      flex-direction: column;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .carro{
+      width: 80%;
+      height: 100%;
+    }
+    .conteudo{
+      width: 100%;
+      height: 310px;
+      background-color: #383838;
+    }
+
+    .imgCarro{
+      width: 100%;
+      height: 180px;
+    }
+
+    .pCarro{
+      font-size: 14px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .p2Carro{
+      font-size: 14px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .pLearnMore{
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+
+  }

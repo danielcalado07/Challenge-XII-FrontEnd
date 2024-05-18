@@ -1,6 +1,10 @@
 import React, { useState } from "react";
-import "../styles/Home.css";
+import "../styles/HomeSessao1.css";
+import "../styles/HomeSessao2.css";
+import "../styles/HomeSessao3.css";
 import Header from "./Header";
+import Footer from "./Footer";
+import PainelCadMotoristas from "./PainelCadMotoristas";
 
 function Home() {
   const [focusedInput, setFocusedInput] = useState("")
@@ -64,7 +68,7 @@ function Home() {
 
   return (
     <div className="Home">
-        <Header />
+      <Header />
       <div className="caixaMae">
         <div className="caixaUm">
           <img className="img_dashBoard" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
@@ -97,7 +101,7 @@ function Home() {
                 <label className={`label2 ${focusedInput === 'destination' ? 'focused' : ''}`} htmlFor='destination'>Your Destination</label>
               </div>
               <div className="contInput">
-                <input id="destination" className="input" type="text" value={destination} onBlur={() => analirInputDois("")}
+                <input id="destination" className="input2" type="text" value={destination} onBlur={() => analirInputDois("")}
                   onFocus={() => analirInputDois('destination')} onChange={(e) => setDestination(e.target.value)} />
                 <span id="clearInput" className={`clear-input ${focusedInput === 'destination' ? 'focused' : ''}`} onClick={limparDetination}>X</span>
               </div>
@@ -122,38 +126,40 @@ function Home() {
       </div>
       <div className="painelDeCarros">
         <div className="carro">
-        <div className="conteudo">
-          <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
-          <p className="pCarro">Basic</p>
-          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
-          <p className="pLearnMore">LEARN MORE</p>
-        </div>
-        </div>
-        <div className="carro">
-        <div className="conteudo">
-        <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
-        <p className="pCarro">Basic</p>
-          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
-          <p className="pLearnMore">LEARN MORE</p>
-        </div>
-        </div>
-        <div className="carro">
-        <div className="conteudo">
-        <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
-        <p className="pCarro">Basic</p>
-          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
-          <p className="pLearnMore">LEARN MORE</p>
-        </div>
+          <div className="conteudo">
+            <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+            <p className="pCarro">Basic</p>
+            <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+            <p className="pLearnMore">LEARN MORE</p>
+          </div>
         </div>
         <div className="carro">
           <div className="conteudo">
-          <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
-          <p className="pCarro">Basic</p>
-          <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
-          <p className="pLearnMore">LEARN MORE</p>
+            <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+            <p className="pCarro">Basic</p>
+            <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+            <p className="pLearnMore">LEARN MORE</p>
+          </div>
+        </div>
+        <div className="carro">
+          <div className="conteudo">
+            <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+            <p className="pCarro">Basic</p>
+            <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+            <p className="pLearnMore">LEARN MORE</p>
+          </div>
+        </div>
+        <div className="carro">
+          <div className="conteudo">
+            <img className="imgCarro" src="https://chalangebucketdaniel.s3.us-east-2.amazonaws.com/ImagensChallenge/papelDeParede.png" alt="imagem" />
+            <p className="pCarro">Basic</p>
+            <p className="p2Carro">The best balance of price and comfort. You will not go wrong with our basic rides.</p>
+            <p className="pLearnMore">LEARN MORE</p>
           </div>
         </div>
       </div>
+      <PainelCadMotoristas />
+      <Footer />
     </div>
   )
 

@@ -7,7 +7,6 @@
   align-items: center;
   padding: 15px;
 }
-
 .divLink {
   display: flex;
   justify-content: space-between;
@@ -44,6 +43,42 @@
   background-color: #333333;
   margin: 0 10px;
 }
+
+/* Responsividade 414 x 896 */
+
+@media screen and (max-width: 430px) {
+  .header {
+    padding: 10px;
+  }
+
+  .img {
+    margin: 0;
+    width: 30%;
+  }
+
+  .pLink {
+    margin: 0 5px;
+    font-size: 10px;
+  }
+
+  .pLink2 {
+    margin: 0 5px;
+    font-size: 10px;
+  }
+.divSeparador{
+  width: 1px;
+  height: 1px;
+  margin: 1px;
+}
+
+  .imagemLogo{
+    width: 12%;
+  }
+  
+  .divUsuario{
+    justify-content: center;
+  }
+}
 /* ==================================== */
 
 .caixaMae {
@@ -53,15 +88,6 @@
   margin-top: 70px;
 }
 
-@media screen and (max-width: 414px) {
-  .caixaMae {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-  }
-  
-}
 
 .caixaUm {
   width: 43%;
@@ -109,7 +135,19 @@
   border-radius: 5px;
   font-size: 20px;
   text-indent: 10px;
-  margin:0;
+  margin-top:15px;
+  margin-bottom: 10px;
+}
+
+.input2{
+  width: 100%;
+  height: 60px;
+  background-color: #2C2C2C;
+  border: 0.1px solid #FFFFFFB2;
+  border-radius: 5px;
+  font-size: 20px;
+  text-indent: 10px;
+  margin-bottom: 10px;
 }
 
 input:focus{
@@ -151,12 +189,14 @@ input:focus{
 
 .pInput{
   width: 100%;
-  font-size: 23px;
+  font-size: 24px;
+  line-height: 32px;
   font-weight: bold;
 }
 
 .divLabel{
   width: 100%;
+  height: 0px;
   text-align: center;
 }
 
@@ -166,7 +206,7 @@ input:focus{
   padding: 4px;
   display: flex;
   position: relative;
-  top: 12px;
+  top: 3px;
   margin-left: 15px;
   background-color: #2C2C2C;
   color: #FFFFFFB2;
@@ -178,7 +218,7 @@ input:focus{
   padding: 4px;
   display: flex;
   position: relative;
-  top: 12px;
+  top: -12px;
   margin-left: 15px;
   background-color: #2C2C2C;
   color: #FFFFFFB2;
@@ -186,19 +226,46 @@ input:focus{
 
 .divpErro{
   width: 100%;
+  height: 0px;
   display: flex;
+  text-align: right;
+  justify-content: right;
+  align-items: center;
+}
+.divpErro2{
+  width: 100%;
+  height: 0px;
+  margin-bottom: 3px;
+  display: flex;
+  text-align: center;
   align-items: center;
 }
 .pErro{
   color: #fb0303;
   font-size: 12px;
-  top: -9px;
+  top: -12px;
   position: relative;
 }
+
+.pErro2{
+  color: #fb0303;
+  font-size: 12px;
+  margin-top: 4px;
+  top: -11px;
+  display: flex;
+  position: relative;
+}
+
 .imgButton2{
   position: relative;
-  top: -10px;
-  margin-right: 10px;
+  top: -14px;
+  margin-right: 5px;
+}
+
+.imgButton3{
+  position: relative;
+  margin-right: 5px;
+  top: -11px;
 }
 
 .label.focused {
@@ -222,6 +289,7 @@ input:focus{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 
 }
 
@@ -238,7 +306,7 @@ input:focus{
   position: absolute;
   cursor: pointer;
   align-items: center;
-  margin-left: 35%;
+  margin-left: 36%;
   font-family: "Noto Serif Khitan Small Script", serif;
   font-style: normal;
 
@@ -255,112 +323,73 @@ input:focus{
   align-items: center;
 }
 
-.titulosSessao2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  flex-direction: column;
-}
-
-.pTituloSessao2{
-  margin-top: 110px;
-  font-size: 26px;
-  color: #FBA403;
-}
-
-.pSubTituloSessao2{
-  font-size: 45px;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-.painelDeCarros{
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 50px;
-  width: 1324px;
-  height: 418px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.carro{
-  width: 100%;
-  height: 100%;
-  padding: 12px;
-  background-color: #242424;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; */
-}
-
-.conteudo{
-  width: 100%;
-  height: 100%;
-  background-color: #383838;
-}
-
-.imgCarro{
-  width: 307px;
-  height: 214px;
-}
-
-.pCarro{
-  font-size: 16px;
-  font-weight: bold;
-  color: #FFFFFF;
-  margin-top: 15px;
-  margin-left: 15px;
-  line-height: 24px;
-}
-
-.p2Carro{
-  font-size: 16px;
-  line-height: 25px;
-  color: #B3B3B3;
-  margin-left: 15px;
-  margin-right: 10px;
-}
-.pLearnMore{
-  font-size: 14px;
-  color: #FBA403;
-  margin-left: 15px;
-  text-align: end;
-  margin-top: 25px;
-  margin-right: 25px;
-  margin-bottom: 15PX;
-}
-/* Responsividade */
-@media screen and (max-width: 710px) {
-  .pLink {
-    font-size: 10px;
-    margin: 0 7px;
+@media screen and (max-width: 430px){
+  .caixaMae{
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .caixaUm{
+    width: 80%;
+    margin-bottom: 20px;
   }
 
-  .pLink2 {
-    font-size: 10px;
-    margin: 0 7px;
+  .caixaDois{
+    width: 80%;
   }
 
-  .imagemLogo{
-    width: 10%;
-    margin: 0;
+  .divInput{
+    padding: 15px;
   }
 
-  .img{
-    width: 30%;
-    margin: 0;
+  .input{
+    height: 50px;
+    font-size: 16px;
   }
 
-  .divSeparador {
-    width: 1px;
-    height: 20px;
-    background-color: #333333;
-    margin: 0;
+  .input2{
+    height: 50px;
+    font-size: 16px;
   }
 
+  .pTitulo{
+    font-size: 15px;
+  }
+
+  .pSubTitulo{
+    font-size: 23px;
+  }
+
+  .pInput{
+    font-size: 18px;
+  }
+
+  .clear-input{
+    margin-left: 60%;
+    
+  }
+
+  .input:focus, .input2:focus{
+    border: 1px solid #FBA403;
+    outline: none;
+    font-size: 12px;
+    text-indent: 10px;
+  }
+  .input, .input2{
+    font-size: 12px;
+    text-indent: 10px;
+  }
+
+  .h2{
+    font-size: 11px;
+  }
+  .button{
+    font-size: 12px;
+    width: 50%;
+    height: 40px;
+  }
+  .imgButton{
+    margin-right: 5px;
+    width: 20px;
+  }
+  
 }
-

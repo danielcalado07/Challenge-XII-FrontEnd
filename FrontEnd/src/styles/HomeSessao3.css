@@ -1,0 +1,330 @@
+.painelDeMotoristas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 93%;
+    height: 920px;
+    background-color: #282828;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.menuTitulo{
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+.logoDriverCar{
+    width: 193.13px;
+    height: 132.55px;
+    margin-right: 20px;
+
+}
+
+.tituloMotorista{
+    font-size: 27px;
+    line-height: 36px;
+    color: #FBA403;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.subTituloMotorista{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.nomeSobrenome{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.inputNome, .inputSobrenome{
+    width: 99.5%;
+    height: 57px;
+    background-color: #282828;
+    border: #FFFFFF 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px
+    
+}
+
+.contInput2{
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputCountry{
+    width: 100%;
+    height: 57px;
+    background-color: #282828;
+    border: #FFFFFF 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.inputEmail{
+  width: 100%;
+  height: 57px;
+  background-color: #282828;
+  border: #FFFFFF 1px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.inputCity{
+    width: 100%;
+    height: 57px;
+    background-color: #282828;
+    border: #FFFFFF 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.inputreferralCode{
+    width: 100%;
+    height: 57px;
+    background-color: #282828;
+    border: #FFFFFF 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.inputNome::placeholder, .inputSobrenome::placeholder, .inputEmail::placeholder, .inputCountry::placeholder, .inputCity::placeholder, .inputreferralCode::placeholder{
+    color: #666666;
+    font-size: 16px;
+    text-indent: 16px;
+}
+
+.label3{
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    padding: 4px;
+    display: flex;
+    position: relative;
+    top: -8px;
+    margin-left: 15px;
+    background-color: #282828;
+    color: #FFFFFF;
+  }
+
+  .LabelRadio{
+    font-size: 16px;
+  }
+
+  .Radio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 30px;
+    align-items: center;
+  }
+
+  .switch-container {
+    position: relative;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.switch-label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 35px;
+    height: 15px;
+    background-color:#FBA40333;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.switch-ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FBA403;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+
+input[type="checkbox"]:checked + .switch-label .switch-ball {
+    transform: translateX(15px);
+}
+
+.divLabel4{
+    margin-top: 20px;
+}
+
+.label4{
+    color: #FBA403;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 40px;
+}
+
+.botoes{
+    margin-top: 15px;
+}
+
+.button2{
+    width: 146.5px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: #FFFFFF 1px solid;
+    background-color: #282828;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.imgBotao{
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.button3{
+    width: 200px;
+    height: 56px;
+    background-color: #FBA403;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .footer{
+    width: 100%;
+    height: 239px;
+    margin-top: 20px;
+  }
+
+  .footerContent{
+    padding: 40px 80px 40px 80px;
+    width: 100%;
+    height: 239px;
+    display: flex;
+  }
+ 
+  .logoRedesSociais{
+    width: 332px;
+  }
+
+  .footerText{
+    font-size: 16px;
+    line-height: 24px;
+    color: #B3B3B3;
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .imgRedeSocial{
+    margin-top: 15px;
+    margin-right: 25px;
+  }
+
+  .company{
+    width: 183px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-left: 80px;
+  }
+
+  .support, .more{
+    width: 183px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  .footerTextCompany, .footerTextSupport, .footerTextMore{
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+
+  .footerText2{
+    font-size: 16px;
+    line-height: 18.7px;
+    cursor: pointer;
+  }
+
+  .footerText2:hover{
+    color: #FBA403;
+  }
+
+  @media screen and (max-width: 430px){
+    .painelDeMotoristas{
+        height: 100%;
+        padding: 15px;
+        margin-top: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 96%;
+    }
+
+    .menuTitulo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerContent{
+        padding: 20px;
+        height: 80%;
+    }
+    .footer{
+        height: 80%;
+    }
+    .logoFooter{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .footerText{
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .imgRedeSocial{
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 30px;
+      }
+      .footerTextCompany, .footerTextSupport, .footerTextMore{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 5px;
+      }
+      .footerText2{
+        font-size: 12px;
+        line-height: 18.7px;
+      }
+
+    .company, .support, .more{
+        margin-left: 0px;
+    }
+    .logoRedesSociais{
+        height: 50%;
+    }
+  }
